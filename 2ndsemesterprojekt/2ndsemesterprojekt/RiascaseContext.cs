@@ -23,7 +23,7 @@ namespace _2ndsemesterprojekt
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=hellow0rld.database.windows.net;Initial Catalog=RIASCase;Persist Security Info=True;User ID=Martin;Password=_weiz123db");
+                optionsBuilder.UseSqlServer("Data Source=hellow0rld.database.windows.net;Initial Catalog=RIASCase;User ID=Martin;Password=_weiz123db");
             }
         }
 
@@ -63,6 +63,14 @@ namespace _2ndsemesterprojekt
                     .HasColumnName("attachment")
                     .HasMaxLength(50);
 
+                entity.Property(e => e.CompanyName)
+                    .HasColumnName("company_name")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.Dato)
+                    .HasColumnName("dato")
+                    .HasColumnType("date");
+
                 entity.Property(e => e.Email)
                     .IsRequired()
                     .HasColumnName("email")
@@ -84,6 +92,11 @@ namespace _2ndsemesterprojekt
                     .IsRequired()
                     .HasColumnName("message")
                     .HasMaxLength(500);
+
+                entity.Property(e => e.Status)
+                    .IsRequired()
+                    .HasColumnName("status")
+                    .HasMaxLength(50);
 
                 entity.Property(e => e.Subject)
                     .IsRequired()

@@ -372,6 +372,9 @@
   <data name="ADP_TransactionPresent" xml:space="preserve">
     <value>Connection currently has transaction enlisted.  Finish current transaction and retry.</value>
   </data>
+  <data name="ADP_InvalidMixedUsageOfCredentialAndAccessToken" xml:space="preserve">
+    <value>Cannot set the Credential property if the AccessToken property is already set.</value>
+  </data>
   <data name="ADP_ConnectionStateMsg_OpenFetching" xml:space="preserve">
     <value>The connection's current state is fetching.</value>
   </data>
@@ -981,6 +984,9 @@
   <data name="ADP_TransactionCompletedButNotDisposed" xml:space="preserve">
     <value>The transaction associated with the current connection has completed but has not been disposed.  The transaction must be disposed before the connection can be used to execute SQL statements.</value>
   </data>
+  <data name="ADP_InvalidMixedUsageOfAccessTokenAndIntegratedSecurity" xml:space="preserve">
+    <value>Cannot set the AccessToken property if the 'Integrated Security' connection string keyword has been set to 'true' or 'SSPI'.</value>
+  </data>
   <data name="SqlMisc_ClosedXmlReaderMessage" xml:space="preserve">
     <value>Invalid attempt to access a closed XmlReader.</value>
   </data>
@@ -1071,6 +1077,9 @@
   <data name="SQL_Duration_PreLoginHandshake" xml:space="preserve">
     <value>The duration spent while attempting to connect to this server was - [Pre-Login] initialization={0}; handshake={1}; </value>
   </data>
+  <data name="SQL_ParsingErrorFeatureId" xml:space="preserve">
+    <value>Internal connection fatal error. Error state: {0}, Feature Id: {1}.</value>
+  </data>
   <data name="ADP_OpenConnectionRequired" xml:space="preserve">
     <value>{0} requires an open and available Connection. {1}</value>
   </data>
@@ -1136,6 +1145,9 @@
   </data>
   <data name="SqlParameter_UnsupportedTVPOutputParameter" xml:space="preserve">
     <value>ParameterDirection '{0}' specified for parameter '{1}' is not supported. Table-valued parameters only support ParameterDirection.Input.</value>
+  </data>
+  <data name="SQL_ParsingErrorWithState" xml:space="preserve">
+    <value>Internal connection fatal error. Error state: {0}.</value>
   </data>
   <data name="ADP_OpenConnectionPropertySet" xml:space="preserve">
     <value>Not allowed to change the '{0}' property. {1}</value>
@@ -1203,8 +1215,14 @@
   <data name="SQL_StreamReadNotSupported" xml:space="preserve">
     <value>The Stream does not support reading.</value>
   </data>
+  <data name="ADP_InvalidMixedUsageOfAccessTokenAndUserIDPassword" xml:space="preserve">
+    <value>Cannot set the AccessToken property if 'UserID', 'UID', 'Password', or 'PWD' has been specified in connection string.</value>
+  </data>
   <data name="net_log_operation_failed_with_error" xml:space="preserve">
     <value>{0} failed with error {1}.</value>
+  </data>
+  <data name="SQL_ParsingErrorAuthLibraryType" xml:space="preserve">
+    <value>Internal connection fatal error. Error state: {0}, Authentication Library Type: {1}.</value>
   </data>
   <data name="ADP_DoubleValuedProperty" xml:space="preserve">
     <value>The acceptable values for the property '{0}' are '{1}' or '{2}'.</value>
@@ -1292,6 +1310,9 @@
   </data>
   <data name="ADP_DataReaderClosed" xml:space="preserve">
     <value>Invalid attempt to call {0} when reader is closed.</value>
+  </data>
+  <data name="SQL_ParsingErrorValue" xml:space="preserve">
+    <value>Internal connection fatal error. Error state: {0}, Value: {1}.</value>
   </data>
   <data name="SQL_ConnectionDoomed" xml:space="preserve">
     <value>The requested operation cannot be completed because the connection has been broken.</value>

@@ -121,10 +121,13 @@
     <value>Data type '{dataType}' is not supported in this form. Either specify the length explicitly in the type name, for example as '{dataType}(16)', or remove the data type and use APIs such as HasMaxLength to allow EF choose the data type.</value>
   </data>
   <data name="LogDefaultDecimalTypeColumn" xml:space="preserve">
-    <value>No type was specified for the decimal column '{property}' on entity type '{entityType}'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.</value>
+    <value>No type was specified for the decimal column '{property}' on entity type '{entityType}'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'.</value>
   </data>
   <data name="LogFoundColumn" xml:space="preserve">
     <value>Found column with table: {tableName}, column name: {columnName}, ordinal: {ordinal}, data type: {dataType}, maximum length: {maxLength}, precision: {precision}, scale: {scale}, nullable: {isNullable}, identity: {isIdentity}, default value: {defaultValue}, computed value: {computedValue}</value>
+  </data>
+  <data name="IncludePropertyNotFound" xml:space="preserve">
+    <value>Include property '{entityType}.{property}' not found</value>
   </data>
   <data name="IdentityBadType" xml:space="preserve">
     <value>Identity value generation cannot be used for the property '{property}' on entity type '{entityType}' because the property type is '{propertyType}'. Identity value generation can only be used with signed integer properties.</value>
@@ -144,6 +147,9 @@
   <data name="AlterMemoryOptimizedTable" xml:space="preserve">
     <value>To set memory-optimized on a table on or off the table needs to be dropped and recreated.</value>
   </data>
+  <data name="ContainsFunctionOnClient" xml:space="preserve">
+    <value>The 'Contains' method is not supported because the query has switched to client-evaluation. Inspect the log to determine which query expressions are triggering client-evaluation.</value>
+  </data>
   <data name="FreeTextFunctionOnClient" xml:space="preserve">
     <value>The 'FreeText' method is not supported because the query has switched to client-evaluation. Inspect the log to determine which query expressions are triggering client-evaluation.</value>
   </data>
@@ -155,6 +161,9 @@
   </data>
   <data name="IncompatibleTableMemoryOptimizedMismatch" xml:space="preserve">
     <value>Cannot use table '{table}' for entity type '{entityType}' since it is being used for entity type '{otherEntityType}' and entity type '{memoryOptimizedEntityType}' is marked as memory-optimized, but entity type '{nonMemoryOptimizedEntityType}' is not.</value>
+  </data>
+  <data name="DuplicateKeyMismatchedClustering" xml:space="preserve">
+    <value>The keys {key1} on '{entityType1}' and {key2} on '{entityType2}' are both mapped to '{table}.{keyName}' but with different clustering.</value>
   </data>
   <data name="LogFoundSequence" xml:space="preserve">
     <value>Found sequence name: {name}, data type: {dataType}, cyclic: {isCyclic}, increment: {increment}, start: {start}, minimum: {min}, maximum: {max}.</value>
@@ -174,11 +183,17 @@
   <data name="InvalidTableToIncludeInScaffolding" xml:space="preserve">
     <value>The specified table '{table}' is not valid. Specify tables using the format '[schema].[table]'.</value>
   </data>
+  <data name="IncludePropertyDuplicated" xml:space="preserve">
+    <value>Include property '{entityType}.{property}' cannot be defined multiple times</value>
+  </data>
   <data name="LogPrincipalColumnNotFound" xml:space="preserve">
     <value>For foreign key {foreignKeyName} on table {tableName}, unable to find the column called {principalColumnName} on the foreign key's principal table, {principaltableName}. Skipping foreign key.</value>
   </data>
   <data name="NonKeyValueGeneration" xml:space="preserve">
     <value>The property '{property}' on entity type '{entityType}' is configured to use 'SequenceHiLo' value generator, which is only intended for keys. If this was intentional configure an alternate key on the property, otherwise call 'ValueGeneratedNever' or configure store generation for this property.</value>
+  </data>
+  <data name="IncludePropertyInIndex" xml:space="preserve">
+    <value>Include property '{entityType}.{property}' is already included in the index</value>
   </data>
   <data name="LogFoundTypeAlias" xml:space="preserve">
     <value>Found type alias with name: {alias} which maps to underlying data type {dataType}.</value>
@@ -197,6 +212,9 @@
   </data>
   <data name="LogFoundPrimaryKey" xml:space="preserve">
     <value>Found primary key with name: {primaryKeyName}, table: {tableName}.</value>
+  </data>
+  <data name="LogReflexiveConstraintIgnored" xml:space="preserve">
+    <value>Skipping foreign key '{foreignKeyName}' on table '{tableName}' since all of its columns reference themselves.</value>
   </data>
   <data name="LogMissingSchema" xml:space="preserve">
     <value>Unable to find a schema in the database matching the selected schema {schema}.</value>

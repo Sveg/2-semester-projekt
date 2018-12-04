@@ -11,14 +11,25 @@
 
     
     <Grid>
-        <Frame x:ConnectionId='2' x:Name="appframe"/>
+        <Frame x:ConnectionId='2' x:Name="appframe" HorizontalAlignment="Stretch" Margin="0,0,0,180" VerticalAlignment="Stretch"/>
+        <Button x:ConnectionId='3' Name="NewTicket" Content="New Ticket" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" Width="200" Height="200" FontSize="36"                                 />
+
+        <Button x:ConnectionId='4' Name="TrackTicket" Content="Track Ticket" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" Width="200" Height="200" FontSize="36"/>
+        <Button x:ConnectionId='5' Name="FAQ" Content="FAQ" Grid.Row="2" Grid.Column="2" Width="200" Height="200" FontSize="36"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+       
         
-        <Button x:ConnectionId='3'                                  HorizontalAlignment="Center" VerticalAlignment="Center">
-            
-        </Button>
-
-
-
 
 
     </Grid>
