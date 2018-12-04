@@ -3,8 +3,10 @@ using System.Collections.Generic;
 
 namespace _2ndsemesterprojekt
 {
-    public partial class Ticket
+    public partial class Ticket : IDomainClass
     {
+
+
         public int TicketId { get; set; }
         public string FullName { get; set; }
         public string Email { get; set; }
@@ -19,5 +21,10 @@ namespace _2ndsemesterprojekt
         public DateTime Dato { get; set; }
 
         public Employee Employee { get; set; }
+
+        public int GetId()
+        {
+            return 0;
+        }
     }
 }

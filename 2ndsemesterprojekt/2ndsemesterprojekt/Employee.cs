@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace _2ndsemesterprojekt
 {
-    public partial class Employee
+    public partial class Employee : IDomainClass
     {
         public Employee()
         {
@@ -15,5 +15,10 @@ namespace _2ndsemesterprojekt
         public string Email { get; set; }
 
         public ICollection<Ticket> Tickets { get; set; }
+
+        public int GetId()
+        {
+            return 0;
+        }
     }
 }
