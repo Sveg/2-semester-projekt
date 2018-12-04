@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>3c7c224e-dc5a-48f2-850e-a676584e761c</PackageIdentityName>
     <PackageIdentityPublisher>CN=gr45tnmp</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\2ndsemesterprojekt.exe">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\2ndsemesterprojekt.exe">
       <PackagePath>entrypoint\2ndsemesterprojekt.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\.nuget\packages\microsoft.entityframeworkcore\2.1.4\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
@@ -577,56 +577,59 @@
     <AppxPackagedFile Include="C:\Users\gr45tnmp\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\2ndsemesterprojekt.xr.xml">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\2ndsemesterprojekt.xr.xml">
       <PackagePath>2ndsemesterprojekt.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\BlankPage1.xbf">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\BlankPage1.xbf">
       <PackagePath>BlankPage1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\FindTicket.xbf">
+      <PackagePath>FindTicket.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\source\repos\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Core\2ndsemesterprojekt.exe">
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Core\2ndsemesterprojekt.exe">
       <PackagePath>2ndsemesterprojekt.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -9702,11 +9702,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gr45tnmp\\source\\repos\\2ndsemesterprojekt\\2ndsemesterprojekt\\2ndsemesterprojekt.csproj",
+      "projectUniqueName": "C:\\Users\\gr45tnmp\\Documents\\GitHub\\2-semester-projekt\\2ndsemesterprojekt\\2ndsemesterprojekt\\2ndsemesterprojekt.csproj",
       "projectName": "2ndsemesterprojekt",
-      "projectPath": "C:\\Users\\gr45tnmp\\source\\repos\\2ndsemesterprojekt\\2ndsemesterprojekt\\2ndsemesterprojekt.csproj",
+      "projectPath": "C:\\Users\\gr45tnmp\\Documents\\GitHub\\2-semester-projekt\\2ndsemesterprojekt\\2ndsemesterprojekt\\2ndsemesterprojekt.csproj",
       "packagesPath": "C:\\Users\\gr45tnmp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gr45tnmp\\source\\repos\\2ndsemesterprojekt\\2ndsemesterprojekt\\obj\\",
+      "outputPath": "C:\\Users\\gr45tnmp\\Documents\\GitHub\\2-semester-projekt\\2ndsemesterprojekt\\2ndsemesterprojekt\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

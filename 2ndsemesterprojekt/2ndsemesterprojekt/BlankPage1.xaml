@@ -46,10 +46,10 @@
         <TextBox HorizontalAlignment="Left" Text="{Binding Telephone, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1"  Grid.Row="4"/>
         <TextBox HorizontalAlignment="Left" Text="{Binding Subject, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1" Grid.Row="6"/>
         <TextBox HorizontalAlignment="Left" Text="{Binding Message, Mode=TwoWay}" VerticalAlignment="Top" Height="135" Width="928" Grid.Column="1" Grid.Row="7"/>
-        <Button Content="Submit Ticket" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="0" Grid.Row="9"/>
+        <Button Name="SubmitTicket" Content="Submit Ticket" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="0" Grid.Row="9"/>
         <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="580"  Grid.Column="1" Grid.Row="5"/>
-        <Button Content="Reset" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="1" Grid.Row="9"/>
-        <Button Content="Cancel" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="1" Grid.Row="9"/>
+        <Button Name="Reset" Content="Reset" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="1" Grid.Row="9"/>
+        <Button Name="Cancel" Content="Cancel" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="1" Grid.Row="9"/>
         <TextBlock HorizontalAlignment="Left" Text="Attachmens" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="8"/>
         <Button Content="Browse" HorizontalAlignment="Left" VerticalAlignment="Top" Height="46" Width="187" Grid.Column="1" Grid.Row="8" Margin="94,0,0,0"/>
         <TextBox HorizontalAlignment="Right" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="320" Grid.Column="0" Grid.Row="8" HorizontalTextAlignment="Right"/>
