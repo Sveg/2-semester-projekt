@@ -95,7 +95,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BlankPage1.xaml.cs">
+    <Compile Include="Pages\BlankPage1.xaml.cs">
       <DependentUpon>BlankPage1.xaml</DependentUpon>
     </Compile>
     <Compile Include="Command\CommandBase.cs" />
@@ -104,7 +104,7 @@
     <Compile Include="Command\DeleteCommand.cs" />
     <Compile Include="DomainModel.cs" />
     <Compile Include="EmployeeDataViewModel.cs" />
-    <Compile Include="FindTicket.xaml.cs">
+    <Compile Include="Pages\FindTicket.xaml.cs">
       <DependentUpon>FindTicket.xaml</DependentUpon>
     </Compile>
     <Compile Include="IDomainClass.cs" />
@@ -123,7 +123,7 @@
     <Compile Include="EmployeePageViewModel.cs" />
     <Compile Include="ViewModel\Base\IDataViewModel.cs" />
     <Compile Include="iCatalog.cs" />
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="Pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Navigation\BaseClassNavigate.cs" />
@@ -154,15 +154,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="BlankPage1.xaml">
+    <Page Include="Pages\BlankPage1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="FindTicket.xaml">
+    <Page Include="Pages\FindTicket.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainPage.xaml">
+    <Page Include="Pages\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
