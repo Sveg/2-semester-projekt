@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-05T11:57:20.766</Modified>
+      <Modified>2018-12-05T12:22:38.215</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\2ndsemesterprojekt.exe">
       <PackagePath>entrypoint\2ndsemesterprojekt.exe</PackagePath>
-      <Modified>2018-12-05T11:57:20.041</Modified>
+      <Modified>2018-12-05T12:22:37.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\.nuget\packages\microsoft.entityframeworkcore\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
@@ -815,23 +815,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-05T11:57:19.760</Modified>
+      <Modified>2018-12-05T12:22:37.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\BlankPage1.xbf">
       <PackagePath>Pages\BlankPage1.xbf</PackagePath>
-      <Modified>2018-12-05T11:57:19.761</Modified>
+      <Modified>2018-12-05T12:22:37.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\FindTicket.xbf">
       <PackagePath>Pages\FindTicket.xbf</PackagePath>
-      <Modified>2018-12-05T11:57:19.762</Modified>
+      <Modified>2018-12-05T12:22:37.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
-      <Modified>2018-12-05T11:57:19.763</Modified>
+      <Modified>2018-12-05T12:22:37.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\ShowTicket.xbf">
       <PackagePath>Pages\ShowTicket.xbf</PackagePath>
-      <Modified>2018-12-05T11:57:19.763</Modified>
+      <Modified>2018-12-05T12:22:37.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -844,7 +844,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Core\2ndsemesterprojekt.exe">
       <PackagePath>2ndsemesterprojekt.exe</PackagePath>
-      <Modified>2018-12-05T11:57:20.761</Modified>
+      <Modified>2018-12-05T12:22:38.210</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

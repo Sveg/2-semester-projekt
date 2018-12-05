@@ -25,6 +25,11 @@ namespace _2ndsemesterprojekt
             }
         }
 
+        public override string ToString()
+        {
+            return $"{Status} {TicketId}";
+        }
+
         public TicketDataViewModel(Ticket obj) : base(obj)
         {
 
