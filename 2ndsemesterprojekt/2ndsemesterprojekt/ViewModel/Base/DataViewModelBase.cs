@@ -25,6 +25,5 @@ namespace _2ndsemesterprojekt
         {
             _obj = obj;
         }
-
     }
 }

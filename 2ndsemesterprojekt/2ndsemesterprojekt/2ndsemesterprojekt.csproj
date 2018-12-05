@@ -95,6 +95,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Command\CreateCommand.cs" />
     <Compile Include="Pages\BlankPage1.xaml.cs">
       <DependentUpon>BlankPage1.xaml</DependentUpon>
     </Compile>
@@ -111,6 +112,9 @@
     <Compile Include="INotofiableCommand.cs" />
     <Compile Include="Navigation\NavigateToSide1.cs" />
     <Compile Include="Navigation\SkipToCreateTicket.cs" />
+    <Compile Include="Pages\ShowTicket.xaml.cs">
+      <DependentUpon>ShowTicket.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TicketDataViewModel.cs" />
     <Compile Include="TicketPageViewModel.cs" />
     <Compile Include="ViewModel\Base\DataViewModelAppBase.cs" />
@@ -119,7 +123,7 @@
     <Compile Include="ViewModel\Base\iPageViewModel.cs" />
     <Compile Include="ViewModel\Base\PageViewModelAppBase.cs" />
     <Compile Include="ViewModel\Base\PageViewModelBase.cs" />
-    <Compile Include="ViewModel\Data\EmployeeConnection.cs" />
+    <Compile Include="ViewModel\Data\EmployeeCatalog.cs" />
     <Compile Include="EmployeePageViewModel.cs" />
     <Compile Include="ViewModel\Base\IDataViewModel.cs" />
     <Compile Include="iCatalog.cs" />
@@ -131,6 +135,7 @@
     <Compile Include="RiascaseContext.cs" />
     <Compile Include="Ticket.cs" />
     <Compile Include="TicketConnection.cs" />
+    <Compile Include="ViewModel\Data\TicketCatalog.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -165,6 +170,10 @@
     <Page Include="Pages\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\ShowTicket.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

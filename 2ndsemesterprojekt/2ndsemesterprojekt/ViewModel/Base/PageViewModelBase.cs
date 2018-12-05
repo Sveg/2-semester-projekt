@@ -14,6 +14,7 @@ namespace _2ndsemesterprojekt
         private iCatalog<T> _catalog;
         private TDataViewModel _itemSelected;
         private CommandBase _deleteCommandObj;
+        private TDataViewModel _itemDetails;
 
         protected PageViewModelBase()
         {
@@ -41,6 +42,11 @@ namespace _2ndsemesterprojekt
         public ICommand DeleteCommandObj
         {
             get { return _deleteCommandObj; }
+        }
+
+        public TDataViewModel ItemDetails
+        {
+            get { return _itemDetails; }
         }
 
         private TDataViewModel CreateDataViewModel(T obj)

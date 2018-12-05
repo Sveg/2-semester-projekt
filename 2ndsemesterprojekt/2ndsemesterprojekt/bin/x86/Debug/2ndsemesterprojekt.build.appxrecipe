@@ -613,14 +613,17 @@
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\BlankPage1.xbf">
-      <PackagePath>BlankPage1.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\BlankPage1.xbf">
+      <PackagePath>Pages\BlankPage1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\FindTicket.xbf">
-      <PackagePath>FindTicket.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\FindTicket.xbf">
+      <PackagePath>Pages\FindTicket.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\MainPage.xbf">
+      <PackagePath>Pages\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\ShowTicket.xbf">
+      <PackagePath>Pages\ShowTicket.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

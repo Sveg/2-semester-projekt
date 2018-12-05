@@ -8,5 +8,6 @@ namespace _2ndsemesterprojekt
         ObservableCollection<TDataViewModel> ItemCollection { get; }
         TDataViewModel ItemSelected { get; set; }
         ICommand DeleteCommandObj { get; }
+        TDataViewModel ItemDetails { get; }
     }
 }

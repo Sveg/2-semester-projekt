@@ -1,14 +1,16 @@
-﻿namespace _2ndsemesterprojekt
+﻿using Windows.Devices.AllJoyn;
+
+namespace _2ndsemesterprojekt
 {
     public abstract class DataViewModelAppBase<T> : DataViewModelBase<T>
     {
        protected DataViewModelAppBase() { }
         protected  DataViewModelAppBase(T obj) : base(obj) { }
 
-        public override string ToString()
+        
+        public int GetId()
         {
-            return ItemDescription;
+           return 0;
         }
-        protected abstract string ItemDescription { get; }
     }
 }

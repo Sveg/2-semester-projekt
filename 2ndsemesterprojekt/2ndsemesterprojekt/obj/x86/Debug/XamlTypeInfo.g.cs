@@ -189,7 +189,7 @@ namespace _2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[7];
+            _typeNameTable = new string[18];
             _typeNameTable[0] = "_2ndsemesterprojekt.BlankPage1";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -197,8 +197,19 @@ namespace _2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo
             _typeNameTable[4] = "_2ndsemesterprojekt.MainPage";
             _typeNameTable[5] = "System.Windows.Input.ICommand";
             _typeNameTable[6] = "String";
+            _typeNameTable[7] = "_2ndsemesterprojekt.TicketPageViewModel";
+            _typeNameTable[8] = "_2ndsemesterprojekt.PageViewModelAppBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>";
+            _typeNameTable[9] = "_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>";
+            _typeNameTable[10] = "Object";
+            _typeNameTable[11] = "System.Collections.ObjectModel.ObservableCollection`1<_2ndsemesterprojekt.TicketDataViewModel>";
+            _typeNameTable[12] = "System.Collections.ObjectModel.Collection`1<_2ndsemesterprojekt.TicketDataViewModel>";
+            _typeNameTable[13] = "_2ndsemesterprojekt.TicketDataViewModel";
+            _typeNameTable[14] = "_2ndsemesterprojekt.DataViewModelAppBase`1<_2ndsemesterprojekt.Ticket>";
+            _typeNameTable[15] = "_2ndsemesterprojekt.DataViewModelBase`1<_2ndsemesterprojekt.Ticket>";
+            _typeNameTable[16] = "Int32";
+            _typeNameTable[17] = "_2ndsemesterprojekt.Pages.ShowTicket";
 
-            _typeTable = new global::System.Type[7];
+            _typeTable = new global::System.Type[18];
             _typeTable[0] = typeof(global::_2ndsemesterprojekt.BlankPage1);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -206,6 +217,17 @@ namespace _2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo
             _typeTable[4] = typeof(global::_2ndsemesterprojekt.MainPage);
             _typeTable[5] = typeof(global::System.Windows.Input.ICommand);
             _typeTable[6] = typeof(global::System.String);
+            _typeTable[7] = typeof(global::_2ndsemesterprojekt.TicketPageViewModel);
+            _typeTable[8] = typeof(global::_2ndsemesterprojekt.PageViewModelAppBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>);
+            _typeTable[9] = typeof(global::_2ndsemesterprojekt.PageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>);
+            _typeTable[10] = typeof(global::System.Object);
+            _typeTable[11] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::_2ndsemesterprojekt.TicketDataViewModel>);
+            _typeTable[12] = typeof(global::System.Collections.ObjectModel.Collection<global::_2ndsemesterprojekt.TicketDataViewModel>);
+            _typeTable[13] = typeof(global::_2ndsemesterprojekt.TicketDataViewModel);
+            _typeTable[14] = typeof(global::_2ndsemesterprojekt.DataViewModelAppBase<global::_2ndsemesterprojekt.Ticket>);
+            _typeTable[15] = typeof(global::_2ndsemesterprojekt.DataViewModelBase<global::_2ndsemesterprojekt.Ticket>);
+            _typeTable[16] = typeof(global::System.Int32);
+            _typeTable[17] = typeof(global::_2ndsemesterprojekt.Pages.ShowTicket);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -243,6 +265,24 @@ namespace _2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo
         private object Activate_0_BlankPage1() { return new global::_2ndsemesterprojekt.BlankPage1(); }
         private object Activate_3_FindTicket() { return new global::_2ndsemesterprojekt.FindTicket(); }
         private object Activate_4_MainPage() { return new global::_2ndsemesterprojekt.MainPage(); }
+        private object Activate_7_TicketPageViewModel() { return new global::_2ndsemesterprojekt.TicketPageViewModel(); }
+        private object Activate_8_PageViewModelAppBase() { return new global::_2ndsemesterprojekt.PageViewModelAppBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>(); }
+        private object Activate_11_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::_2ndsemesterprojekt.TicketDataViewModel>(); }
+        private object Activate_12_Collection() { return new global::System.Collections.ObjectModel.Collection<global::_2ndsemesterprojekt.TicketDataViewModel>(); }
+        private object Activate_13_TicketDataViewModel() { return new global::_2ndsemesterprojekt.TicketDataViewModel(); }
+        private object Activate_17_ShowTicket() { return new global::_2ndsemesterprojekt.Pages.ShowTicket(); }
+        private void VectorAdd_11_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
+            var newItem = (global::_2ndsemesterprojekt.TicketDataViewModel)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_12_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
+            var newItem = (global::_2ndsemesterprojekt.TicketDataViewModel)item;
+            collection.Add(newItem);
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -294,6 +334,80 @@ namespace _2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo
             case 6:   //  String
                 xamlType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
+
+            case 7:   //  _2ndsemesterprojekt.TicketPageViewModel
+                userType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("_2ndsemesterprojekt.PageViewModelAppBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>"));
+                userType.Activator = Activate_7_TicketPageViewModel;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  _2ndsemesterprojekt.PageViewModelAppBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>
+                userType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>"));
+                userType.Activator = Activate_8_PageViewModelAppBase;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  _2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>
+                userType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("ItemCollection");
+                userType.AddMemberName("ItemSelected");
+                userType.AddMemberName("DeleteCommandObj");
+                userType.AddMemberName("ItemDetails");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  Object
+                xamlType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 11:   //  System.Collections.ObjectModel.ObservableCollection`1<_2ndsemesterprojekt.TicketDataViewModel>
+                userType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<_2ndsemesterprojekt.TicketDataViewModel>"));
+                userType.CollectionAdd = VectorAdd_11_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 12:   //  System.Collections.ObjectModel.Collection`1<_2ndsemesterprojekt.TicketDataViewModel>
+                userType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_12_Collection;
+                userType.CollectionAdd = VectorAdd_12_Collection;
+                xamlType = userType;
+                break;
+
+            case 13:   //  _2ndsemesterprojekt.TicketDataViewModel
+                userType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("_2ndsemesterprojekt.DataViewModelAppBase`1<_2ndsemesterprojekt.Ticket>"));
+                userType.Activator = Activate_13_TicketDataViewModel;
+                userType.AddMemberName("Status");
+                userType.AddMemberName("TicketId");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  _2ndsemesterprojekt.DataViewModelAppBase`1<_2ndsemesterprojekt.Ticket>
+                userType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("_2ndsemesterprojekt.DataViewModelBase`1<_2ndsemesterprojekt.Ticket>"));
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  _2ndsemesterprojekt.DataViewModelBase`1<_2ndsemesterprojekt.Ticket>
+                userType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 16:   //  Int32
+                xamlType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 17:   //  _2ndsemesterprojekt.Pages.ShowTicket
+                userType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_17_ShowTicket;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
             }
             return xamlType;
         }
@@ -308,6 +422,51 @@ namespace _2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo
         {
             var that = (global::_2ndsemesterprojekt.MainPage)instance;
             return that.TestProp;
+        }
+        private object get_2_PageViewModelBase_ItemCollection(object instance)
+        {
+            var that = (global::_2ndsemesterprojekt.PageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
+            return that.ItemCollection;
+        }
+        private object get_3_TicketDataViewModel_Status(object instance)
+        {
+            var that = (global::_2ndsemesterprojekt.TicketDataViewModel)instance;
+            return that.Status;
+        }
+        private void set_3_TicketDataViewModel_Status(object instance, object Value)
+        {
+            var that = (global::_2ndsemesterprojekt.TicketDataViewModel)instance;
+            that.Status = (global::System.String)Value;
+        }
+        private object get_4_TicketDataViewModel_TicketId(object instance)
+        {
+            var that = (global::_2ndsemesterprojekt.TicketDataViewModel)instance;
+            return that.TicketId;
+        }
+        private void set_4_TicketDataViewModel_TicketId(object instance, object Value)
+        {
+            var that = (global::_2ndsemesterprojekt.TicketDataViewModel)instance;
+            that.TicketId = (global::System.Int32)Value;
+        }
+        private object get_5_PageViewModelBase_ItemSelected(object instance)
+        {
+            var that = (global::_2ndsemesterprojekt.PageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
+            return that.ItemSelected;
+        }
+        private void set_5_PageViewModelBase_ItemSelected(object instance, object Value)
+        {
+            var that = (global::_2ndsemesterprojekt.PageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
+            that.ItemSelected = (global::_2ndsemesterprojekt.TicketDataViewModel)Value;
+        }
+        private object get_6_PageViewModelBase_DeleteCommandObj(object instance)
+        {
+            var that = (global::_2ndsemesterprojekt.PageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
+            return that.DeleteCommandObj;
+        }
+        private object get_7_PageViewModelBase_ItemDetails(object instance)
+        {
+            var that = (global::_2ndsemesterprojekt.PageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
+            return that.ItemDetails;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -327,6 +486,42 @@ namespace _2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo
                 userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.MainPage");
                 xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "TestProp", "String");
                 xamlMember.Getter = get_1_MainPage_TestProp;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>.ItemCollection":
+                userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>");
+                xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "ItemCollection", "System.Collections.ObjectModel.ObservableCollection`1<_2ndsemesterprojekt.TicketDataViewModel>");
+                xamlMember.Getter = get_2_PageViewModelBase_ItemCollection;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "_2ndsemesterprojekt.TicketDataViewModel.Status":
+                userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.TicketDataViewModel");
+                xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "Status", "String");
+                xamlMember.Getter = get_3_TicketDataViewModel_Status;
+                xamlMember.Setter = set_3_TicketDataViewModel_Status;
+                break;
+            case "_2ndsemesterprojekt.TicketDataViewModel.TicketId":
+                userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.TicketDataViewModel");
+                xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "TicketId", "Int32");
+                xamlMember.Getter = get_4_TicketDataViewModel_TicketId;
+                xamlMember.Setter = set_4_TicketDataViewModel_TicketId;
+                break;
+            case "_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>.ItemSelected":
+                userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>");
+                xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "ItemSelected", "_2ndsemesterprojekt.TicketDataViewModel");
+                xamlMember.Getter = get_5_PageViewModelBase_ItemSelected;
+                xamlMember.Setter = set_5_PageViewModelBase_ItemSelected;
+                break;
+            case "_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>.DeleteCommandObj":
+                userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>");
+                xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "DeleteCommandObj", "System.Windows.Input.ICommand");
+                xamlMember.Getter = get_6_PageViewModelBase_DeleteCommandObj;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>.ItemDetails":
+                userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>");
+                xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "ItemDetails", "_2ndsemesterprojekt.TicketDataViewModel");
+                xamlMember.Getter = get_7_PageViewModelBase_ItemDetails;
                 xamlMember.SetIsReadOnly();
                 break;
             }

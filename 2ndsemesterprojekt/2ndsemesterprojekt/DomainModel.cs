@@ -13,9 +13,13 @@ namespace _2ndsemesterprojekt
 
         private iCatalog<Employee> Employee
             {
-                get { return new EmployeeConnection();}
+                get { return new EmployeeCatalog();}
             }
-        private iCatalog<Ticket> Ticket { get; }
+
+        private iCatalog<Ticket> Ticket
+        {
+            get { return new TicketCatalog();}
+        }
 
         public static iCatalog<T> GetCatalog<T>()
         {
