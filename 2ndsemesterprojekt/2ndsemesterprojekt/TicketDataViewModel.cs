@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using Windows.ApplicationModel.Appointments;
 
 namespace _2ndsemesterprojekt
 {
@@ -24,10 +25,19 @@ namespace _2ndsemesterprojekt
 
             }
         }
+        public string Email
+        {
+            get { return DataObject().Email; }
+        }
+
+        public string Date
+        {
+            get { return DataObject().Dato.ToString(); }
+        }
 
         public override string ToString()
         {
-            return $"{Status} {TicketId}";
+            return $"{Status} {TicketId} {Email} {Date}";
         }
 
         public TicketDataViewModel(Ticket obj) : base(obj)
@@ -39,6 +49,7 @@ namespace _2ndsemesterprojekt
         {
 
         }
+
         #region OnPropertyChanged
 
 

@@ -109,7 +109,7 @@
       <DependentUpon>FindTicket.xaml</DependentUpon>
     </Compile>
     <Compile Include="IDomainClass.cs" />
-    <Compile Include="INotofiableCommand.cs" />
+    <Compile Include="Command\INotofiableCommand.cs" />
     <Compile Include="Navigation\NavigateToSide1.cs" />
     <Compile Include="Navigation\SkipToCreateTicket.cs" />
     <Compile Include="Pages\ShowTicket.xaml.cs">
