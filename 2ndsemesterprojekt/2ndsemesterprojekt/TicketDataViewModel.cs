@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using Windows.ApplicationModel.Appointments;
 
@@ -28,18 +29,28 @@ namespace _2ndsemesterprojekt
         public string Email
         {
             get { return DataObject().Email; }
+            set
+            {
+                DataObject().Email = value;
+                OnPropertyChanged();
+            }
         }
 
         public string Date
         {
             get { return DataObject().Dato.ToString(); }
+            set
+            {
+                DataObject().Dato = DateTime.Parse(value);
+                OnPropertyChanged();
+            }
         }
 
         public override string ToString()
         {
             return $"{Status} {TicketId} {Email} {Date}";
         }
-
+        
         public TicketDataViewModel(Ticket obj) : base(obj)
         {
 

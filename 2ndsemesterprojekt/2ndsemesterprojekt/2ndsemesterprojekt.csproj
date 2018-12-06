@@ -117,6 +117,7 @@
     </Compile>
     <Compile Include="TicketDataViewModel.cs" />
     <Compile Include="TicketPageViewModel.cs" />
+    <Compile Include="ViewModel\Base\CreatePageViewModelBase.cs" />
     <Compile Include="ViewModel\Base\DataViewModelAppBase.cs" />
     <Compile Include="ViewModel\Base\DataViewModelBase.cs" />
     <Compile Include="Employee.cs" />
