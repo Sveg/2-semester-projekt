@@ -50,9 +50,9 @@
         <Button Name="SubmitTicket" Content="Submit Ticket" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="187" Grid.Column="0" Grid.Row="9" Margin="0,62,0,0" Click="SubmitTicket_Click_1" Command="{Binding CreateTicketCommandObj}"/>
         <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="580"  Grid.Column="1" Grid.Row="5" SelectedItem="{Binding ItemSelected.HelpTopic, Mode=TwoWay}">
             <ComboBoxItem Content="Support"/>
-            <ComboBoxItem Content="Support"/>
-            <ComboBoxItem Content="Support"/>
-            <ComboBoxItem Content="Support"/>
+            <ComboBoxItem Content="Billing"/>
+            <ComboBoxItem Content="Plast"/>
+            <ComboBoxItem Content="3D Print"/>
         </ComboBox>
         <Button Name="Reset" Content="Reset" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="1" Grid.Row="9"/>
         <Button Name="Cancel" Content="Cancel" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="1" Grid.Row="9"/>

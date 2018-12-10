@@ -32,7 +32,14 @@ namespace _2ndsemesterprojekt
         
         public int GetId()
         {
-            return 0;
+            return TicketId;
         }
+
+        public void SetId( int id )
+        {
+            TicketId = id;
+        }
+
+        
     }
 }

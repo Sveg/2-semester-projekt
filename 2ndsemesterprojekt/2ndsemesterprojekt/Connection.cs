@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace _2ndsemesterprojekt
 {
-    public class Connection<T> : iCatalog<T> where T : class 
+    public class Connection<T> : iCatalog<T> where T : class, IDomainClass
     {
         private T _obj { get; set; }
         private RiascaseContext _context;
@@ -19,6 +19,10 @@ namespace _2ndsemesterprojekt
 
         public void Create(T obj)
         {
+            var ids = All.Select(o => o.GetId());
+            int id = !ids.Any() ? 1 : All.Select(o => o.GetId()).Max() + 1;
+            obj.SetId(id);
+
             _context.Add(obj);
             _context.SaveChanges();
         }

@@ -20,5 +20,10 @@ namespace _2ndsemesterprojekt
         {
             return 0;
         }
+
+        public void SetId(int id)
+        {
+            EmployeeId = id;
+        }
     }
 }
