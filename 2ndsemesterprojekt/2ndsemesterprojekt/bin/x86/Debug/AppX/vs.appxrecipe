@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T11:16:54.596</Modified>
+      <Modified>2018-12-10T10:38:49.839</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\2ndsemesterprojekt.exe">
       <PackagePath>entrypoint\2ndsemesterprojekt.exe</PackagePath>
-      <Modified>2018-12-06T11:16:52.285</Modified>
+      <Modified>2018-12-10T10:38:49.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\.nuget\packages\microsoft.entityframeworkcore\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
@@ -773,65 +773,65 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-12-04T11:25:13.791</Modified>
+      <Modified>2018-12-10T08:29:30.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-12-04T11:25:13.744</Modified>
+      <Modified>2018-12-10T08:29:30.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-04T11:25:13.744</Modified>
+      <Modified>2018-12-10T08:29:30.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-04T11:25:13.744</Modified>
+      <Modified>2018-12-10T08:29:30.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-04T11:25:13.744</Modified>
+      <Modified>2018-12-10T08:29:30.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-04T11:25:13.744</Modified>
+      <Modified>2018-12-10T08:29:30.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-04T11:25:13.744</Modified>
+      <Modified>2018-12-10T08:29:30.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-04T11:25:13.744</Modified>
+      <Modified>2018-12-10T08:29:30.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\2ndsemesterprojekt.xr.xml">
       <PackagePath>2ndsemesterprojekt.xr.xml</PackagePath>
-      <Modified>2018-12-06T11:16:50.983</Modified>
+      <Modified>2018-12-10T10:34:27.964</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-06T11:16:51.703</Modified>
+      <Modified>2018-12-10T10:38:48.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\BlankPage1.xbf">
       <PackagePath>Pages\BlankPage1.xbf</PackagePath>
-      <Modified>2018-12-06T11:16:51.705</Modified>
+      <Modified>2018-12-10T10:38:48.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\FindTicket.xbf">
       <PackagePath>Pages\FindTicket.xbf</PackagePath>
-      <Modified>2018-12-06T11:16:51.708</Modified>
+      <Modified>2018-12-10T10:38:48.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
-      <Modified>2018-12-06T11:16:51.709</Modified>
+      <Modified>2018-12-10T10:38:48.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\ShowTicket.xbf">
       <PackagePath>Pages\ShowTicket.xbf</PackagePath>
-      <Modified>2018-12-06T11:16:51.711</Modified>
+      <Modified>2018-12-10T10:38:48.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -840,11 +840,11 @@
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T11:16:53.405</Modified>
+      <Modified>2018-12-10T10:04:11.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gr45tnmp\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Core\2ndsemesterprojekt.exe">
       <PackagePath>2ndsemesterprojekt.exe</PackagePath>
-      <Modified>2018-12-06T11:16:54.574</Modified>
+      <Modified>2018-12-10T10:38:49.834</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

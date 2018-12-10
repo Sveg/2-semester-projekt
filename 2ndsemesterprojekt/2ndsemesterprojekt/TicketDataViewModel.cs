@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using Windows.ApplicationModel.Appointments;
 
 namespace _2ndsemesterprojekt
@@ -17,6 +18,65 @@ namespace _2ndsemesterprojekt
             }
         }
 
+        public string FullName
+        {
+            get { return DataObject().FullName; }
+            set
+            {
+                DataObject().FullName = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public string CompanyName
+        {
+            get { return DataObject().CompanyName; }
+            set
+            {
+                DataObject().CompanyName = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int? Telephone
+        {
+            get { return DataObject().Telephone; }
+            set
+            {
+                DataObject().Telephone = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public object HelpTopic
+        {
+            get { return DataObject().HelpTopic; }
+            set
+            {
+                DataObject().HelpTopic = value.ToString();
+                OnPropertyChanged();
+            }
+        }
+
+        public string Subject
+        {
+            get { return DataObject().Subject; }
+            set
+            {
+                DataObject().Subject = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public string Message
+        {
+            get { return DataObject().Message; }
+            set
+            {
+                DataObject().Message = value;
+                OnPropertyChanged();
+            }
+        }
         public int TicketId
         {
             get { return DataObject().TicketId; }
@@ -60,6 +120,8 @@ namespace _2ndsemesterprojekt
         {
 
         }
+
+        
 
         #region OnPropertyChanged
 

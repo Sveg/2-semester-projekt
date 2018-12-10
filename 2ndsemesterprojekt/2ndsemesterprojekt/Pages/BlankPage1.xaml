@@ -8,10 +8,10 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-
     <Page.DataContext>
         <local:CreateTicketPageViewModel/>
     </Page.DataContext>
+
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -37,18 +37,23 @@
         <TextBlock HorizontalAlignment="Left" Text="*Email" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="3"/>
         <TextBlock HorizontalAlignment="Left" Text="Telephone" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="4"/>
         <TextBlock HorizontalAlignment="Left" Text="Company Name" VerticalAlignment="Top" Height="60" Width="253" FontSize="30" Grid.Column="0" Grid.Row="2"/>
-        <TextBox HorizontalAlignment="Left" Text="{Binding FullName, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.FullName, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1" Grid.Row="1"/>
         <TextBlock HorizontalAlignment="Left" FontSize="58" Text="Create Support Ticket" TextWrapping="Wrap" VerticalAlignment="Top" Height="125" Width="694" Grid.Column="1" Grid.Row="0"/>
         <TextBlock HorizontalAlignment="Left" Text="*Help Topic" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="5"/>
         <TextBlock HorizontalAlignment="Left" Text="*Subject" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="6"/>
         <TextBlock HorizontalAlignment="Left" Text="*Message" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="7"/>
-        <TextBox HorizontalAlignment="Left" Text="{Binding CompanyName, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1"  Grid.Row="2"/>
-        <TextBox HorizontalAlignment="Left" Text="{Binding Email, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1"  Grid.Row="3"/>
-        <TextBox HorizontalAlignment="Left" Text="{Binding Telephone, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1"  Grid.Row="4"/>
-        <TextBox HorizontalAlignment="Left" Text="{Binding Subject, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1" Grid.Row="6"/>
-        <TextBox HorizontalAlignment="Left" Text="{Binding Message, Mode=TwoWay}" VerticalAlignment="Top" Height="135" Width="928" Grid.Column="1" Grid.Row="7"/>
-        <Button Name="SubmitTicket" Content="Submit Ticket" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="187" Grid.Column="0" Grid.Row="9" Margin="0,62,0,0" Click="SubmitTicket_Click" Command="{x:Bind}"/>
-        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="580"  Grid.Column="1" Grid.Row="5"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.CompanyName, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1"  Grid.Row="2"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.Email, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1"  Grid.Row="3"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.Telephone, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1"  Grid.Row="4"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.Subject, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1" Grid.Row="6"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.Message, Mode=TwoWay}" VerticalAlignment="Top" Height="135" Width="928" Grid.Column="1" Grid.Row="7"/>
+        <Button Name="SubmitTicket" Content="Submit Ticket" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="187" Grid.Column="0" Grid.Row="9" Margin="0,62,0,0" Click="SubmitTicket_Click_1" Command="{Binding CreateTicketCommandObj}"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="580"  Grid.Column="1" Grid.Row="5" SelectedItem="{Binding ItemSelected.HelpTopic, Mode=TwoWay}">
+            <ComboBoxItem Content="Support"/>
+            <ComboBoxItem Content="Support"/>
+            <ComboBoxItem Content="Support"/>
+            <ComboBoxItem Content="Support"/>
+        </ComboBox>
         <Button Name="Reset" Content="Reset" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="1" Grid.Row="9"/>
         <Button Name="Cancel" Content="Cancel" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="1" Grid.Row="9"/>
         <TextBlock HorizontalAlignment="Left" Text="Attachmens" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="8"/>

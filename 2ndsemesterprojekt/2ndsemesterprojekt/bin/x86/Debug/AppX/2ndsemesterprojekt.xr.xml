@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="CreateCommandObject" />
+    <RootPropertyPathName Name="ItemSelected" />
+    <RootPropertyPathName Name="HelpTopic" />
+    <RootPropertyPathName Name="CreateTicketCommandObj" />
+    <RootPropertyPathName Name="ItemDetails" />
     <RootPropertyPathName Name="Message" />
     <RootPropertyPathName Name="Subject" />
     <RootPropertyPathName Name="Telephone" />
@@ -14,10 +17,11 @@
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
-      <RootProperty Name="Content" />
       <RootProperty Name="DataContext" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="_2ndsemesterprojekt.CreateTicketPageViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
@@ -70,9 +74,14 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="_2ndsemesterprojekt.BlankPage1" />
     <RootType FullName="_2ndsemesterprojekt.FindTicket" />

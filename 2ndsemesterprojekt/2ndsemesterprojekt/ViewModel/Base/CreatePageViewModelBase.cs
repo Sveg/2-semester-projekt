@@ -10,19 +10,16 @@ using System.Windows.Input;
 
 namespace _2ndsemesterprojekt.ViewModel.Base
 {
-    class CreatePageViewModelBase<T, TDataViewModel> : INotifyPropertyChanged, iPageViewModel<TDataViewModel>
+    public class CreatePageViewModelBase<T, TDataViewModel> : INotifyPropertyChanged, iPageViewModel<TDataViewModel>
         where TDataViewModel : class, IDataViewModel<T>
         where T : IDomainClass, new()
     {
-        private iCatalog<T> _catalog;
-        private TDataViewModel _itemBeingCreated;
+        protected iCatalog<T> _catalog;
+        protected TDataViewModel _itemBeingCreated;
         private CommandBase _createCommandObject;
 
-        protected CreatePageViewModelBase()
+        public CreatePageViewModelBase()
         {
-            T domainObject = new T();
-
-            _itemBeingCreated = null;
             _catalog = DomainModel.GetCatalog<T>();
             _createCommandObject = new CreateCommand<T, TDataViewModel>(_catalog, this);
     

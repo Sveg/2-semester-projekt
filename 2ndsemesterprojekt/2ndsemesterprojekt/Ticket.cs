@@ -7,6 +7,10 @@ namespace _2ndsemesterprojekt
 {
     public partial class Ticket : IDomainClass
     {
+        public Ticket()
+        {
+            Status = "Open";
+        }
         public string Subject { get; set; }
         
 
