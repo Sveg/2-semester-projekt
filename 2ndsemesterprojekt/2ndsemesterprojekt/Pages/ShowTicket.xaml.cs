@@ -26,5 +26,10 @@ namespace _2ndsemesterprojekt.Pages
         {
             this.InitializeComponent();
         }
+
+        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
     }
 }

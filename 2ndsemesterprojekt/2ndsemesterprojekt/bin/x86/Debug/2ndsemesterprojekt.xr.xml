@@ -93,6 +93,8 @@
     <RootType FullName="_2ndsemesterprojekt.TicketPageViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemsSource" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="IsItemClickEnabled" />
     </RootType>
     <RootType FullName="_2ndsemesterprojekt.Pages.ShowTicket" />
   </Roots.RootTypes>

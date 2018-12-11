@@ -13,8 +13,15 @@
 
     </Page.DataContext>
     <Grid>
-        <ListView ItemsSource="{Binding ItemCollection}"/>
+        <ListView ItemsSource="{Binding ItemCollection}" Grid.Column="0" IsEnabled="True" IsItemClickEnabled="True"/>
 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+
+
+        </Grid.ColumnDefinitions>
+        
     </Grid>
 </Page>
 
