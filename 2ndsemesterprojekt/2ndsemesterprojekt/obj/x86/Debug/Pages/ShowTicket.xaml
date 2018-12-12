@@ -13,15 +13,19 @@
 
     </Page.DataContext>
     <Grid>
-        <ListView ItemsSource="{Binding ItemCollection}" Grid.Column="0" IsEnabled="True" IsItemClickEnabled="True"/>
-
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="2*"/>
-
-
         </Grid.ColumnDefinitions>
-        
+        <ListView x:ConnectionId='2' ItemsSource="{Binding ItemCollection}" Grid.Column="0" IsEnabled="True" IsItemClickEnabled="True"                                SelectedItem="{Binding ItemSelected, Mode=TwoWay}"/>
+        <TextBox x:ConnectionId='3' Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="infoBox" Text="{Binding ItemDetails.Message}"/>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+        </Grid>
     </Grid>
 </Page>
 

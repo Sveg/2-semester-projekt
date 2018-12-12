@@ -2,7 +2,8 @@
 {
     public class CreateTicketCommand : CreateCommand<Ticket, TicketDataViewModel>
     {
-        public CreateTicketCommand(iCatalog<Ticket> catalog, iPageViewModel<TicketDataViewModel> pageViewModel) : base(catalog, pageViewModel)
+        public CreateTicketCommand(iCatalog<Ticket> catalog, iPageViewModel<TicketDataViewModel> pageViewModel) 
+            : base(catalog, pageViewModel)
         {
         }
 

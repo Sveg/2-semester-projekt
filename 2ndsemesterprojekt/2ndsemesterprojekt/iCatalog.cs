@@ -8,5 +8,6 @@ namespace _2ndsemesterprojekt
         void Create(T obj);
         T Read(int id);
         void Delete(int id);
+        void Update(int id, T obj);
     }
 }

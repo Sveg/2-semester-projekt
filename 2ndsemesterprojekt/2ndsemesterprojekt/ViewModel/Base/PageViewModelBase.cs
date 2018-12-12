@@ -35,6 +35,8 @@ namespace _2ndsemesterprojekt
             {
                 _itemSelected = value;
                 OnPropertyChanged();
+                _itemDetails = value;
+                OnPropertyChanged(nameof(ItemDetails));
                 _deleteCommandObj.RaiseCanExecuteChanged();
             }
         }

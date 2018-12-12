@@ -1,6 +1,6 @@
 ﻿namespace _2ndsemesterprojekt
 {
-    public class EmployeeCatalog : Connection<Employee>
+    public class EmployeeCatalog : Catalog<Employee>
     {
     }
 }

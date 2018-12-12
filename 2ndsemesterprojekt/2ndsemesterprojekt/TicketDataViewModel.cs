@@ -99,11 +99,7 @@ namespace _2ndsemesterprojekt
         public string Date
         {
             get { return DataObject().Dato.ToString(); }
-            set
-            {
-                DataObject().Dato = DateTime.Parse(value);
-                OnPropertyChanged();
-            }
+            
         }
 
         public override string ToString()

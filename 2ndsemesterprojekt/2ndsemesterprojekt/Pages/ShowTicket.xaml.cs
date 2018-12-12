@@ -29,7 +29,7 @@ namespace _2ndsemesterprojekt.Pages
 
         private void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
-
+           
         }
     }
 }

@@ -421,8 +421,6 @@ namespace _2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo
             case 17:   //  _2ndsemesterprojekt.MainPage
                 userType = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_17_MainPage;
-                userType.AddMemberName("ButtonCommand");
-                userType.AddMemberName("TestProp");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -597,37 +595,27 @@ namespace _2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo
             var that = (global::_2ndsemesterprojekt.ViewModel.Base.CreatePageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
             return that.DeleteCommandObj;
         }
-        private object get_16_MainPage_ButtonCommand(object instance)
-        {
-            var that = (global::_2ndsemesterprojekt.MainPage)instance;
-            return that.ButtonCommand;
-        }
-        private object get_17_MainPage_TestProp(object instance)
-        {
-            var that = (global::_2ndsemesterprojekt.MainPage)instance;
-            return that.TestProp;
-        }
-        private object get_18_PageViewModelBase_ItemCollection(object instance)
+        private object get_16_PageViewModelBase_ItemCollection(object instance)
         {
             var that = (global::_2ndsemesterprojekt.PageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
             return that.ItemCollection;
         }
-        private object get_19_PageViewModelBase_ItemSelected(object instance)
+        private object get_17_PageViewModelBase_ItemSelected(object instance)
         {
             var that = (global::_2ndsemesterprojekt.PageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
             return that.ItemSelected;
         }
-        private void set_19_PageViewModelBase_ItemSelected(object instance, object Value)
+        private void set_17_PageViewModelBase_ItemSelected(object instance, object Value)
         {
             var that = (global::_2ndsemesterprojekt.PageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
             that.ItemSelected = (global::_2ndsemesterprojekt.TicketDataViewModel)Value;
         }
-        private object get_20_PageViewModelBase_DeleteCommandObj(object instance)
+        private object get_18_PageViewModelBase_DeleteCommandObj(object instance)
         {
             var that = (global::_2ndsemesterprojekt.PageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
             return that.DeleteCommandObj;
         }
-        private object get_21_PageViewModelBase_ItemDetails(object instance)
+        private object get_19_PageViewModelBase_ItemDetails(object instance)
         {
             var that = (global::_2ndsemesterprojekt.PageViewModelBase<global::_2ndsemesterprojekt.Ticket, global::_2ndsemesterprojekt.TicketDataViewModel>)instance;
             return that.ItemDetails;
@@ -736,40 +724,28 @@ namespace _2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo
                 xamlMember.Getter = get_15_CreatePageViewModelBase_DeleteCommandObj;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "_2ndsemesterprojekt.MainPage.ButtonCommand":
-                userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.MainPage");
-                xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "ButtonCommand", "System.Windows.Input.ICommand");
-                xamlMember.Getter = get_16_MainPage_ButtonCommand;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "_2ndsemesterprojekt.MainPage.TestProp":
-                userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.MainPage");
-                xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "TestProp", "String");
-                xamlMember.Getter = get_17_MainPage_TestProp;
-                xamlMember.SetIsReadOnly();
-                break;
             case "_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>.ItemCollection":
                 userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>");
                 xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "ItemCollection", "System.Collections.ObjectModel.ObservableCollection`1<_2ndsemesterprojekt.TicketDataViewModel>");
-                xamlMember.Getter = get_18_PageViewModelBase_ItemCollection;
+                xamlMember.Getter = get_16_PageViewModelBase_ItemCollection;
                 xamlMember.SetIsReadOnly();
                 break;
             case "_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>.ItemSelected":
                 userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>");
                 xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "ItemSelected", "_2ndsemesterprojekt.TicketDataViewModel");
-                xamlMember.Getter = get_19_PageViewModelBase_ItemSelected;
-                xamlMember.Setter = set_19_PageViewModelBase_ItemSelected;
+                xamlMember.Getter = get_17_PageViewModelBase_ItemSelected;
+                xamlMember.Setter = set_17_PageViewModelBase_ItemSelected;
                 break;
             case "_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>.DeleteCommandObj":
                 userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>");
                 xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "DeleteCommandObj", "System.Windows.Input.ICommand");
-                xamlMember.Getter = get_20_PageViewModelBase_DeleteCommandObj;
+                xamlMember.Getter = get_18_PageViewModelBase_DeleteCommandObj;
                 xamlMember.SetIsReadOnly();
                 break;
             case "_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>.ItemDetails":
                 userType = (global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlUserType)GetXamlTypeByName("_2ndsemesterprojekt.PageViewModelBase`2<_2ndsemesterprojekt.Ticket, _2ndsemesterprojekt.TicketDataViewModel>");
                 xamlMember = new global::_2ndsemesterprojekt._ndsemesterprojekt_XamlTypeInfo.XamlMember(this, "ItemDetails", "_2ndsemesterprojekt.TicketDataViewModel");
-                xamlMember.Getter = get_21_PageViewModelBase_ItemDetails;
+                xamlMember.Getter = get_19_PageViewModelBase_ItemDetails;
                 xamlMember.SetIsReadOnly();
                 break;
             }

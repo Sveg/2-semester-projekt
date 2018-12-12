@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using Windows.Globalization;
 
 namespace _2ndsemesterprojekt
 {
@@ -10,6 +11,8 @@ namespace _2ndsemesterprojekt
         public Ticket()
         {
             Status = "Open";
+            Dato = DateTime.Now;
+            
         }
         public string Subject { get; set; }
         

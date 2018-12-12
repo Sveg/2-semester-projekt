@@ -1,1 +1,1 @@
-C:\Users\lucal\OneDrive\Dokumenter\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\2ndsemesterprojekt.csproj;x86
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\2ndsemesterprojekt.csproj;x86

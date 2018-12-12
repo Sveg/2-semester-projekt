@@ -4,11 +4,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace _2ndsemesterprojekt
 {
-    public class TicketCatalog : Connection<Ticket>
+    public class TicketCatalog : Catalog<Ticket>
     {
-        //public override List<Ticket> BuildObjects(DbSet<Ticket> objects)
-        //{
-        //    return objects.ToList();
-        //}
+        
     }
 }

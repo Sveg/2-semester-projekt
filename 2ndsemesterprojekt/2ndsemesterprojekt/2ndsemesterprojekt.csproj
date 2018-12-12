@@ -102,7 +102,7 @@
       <DependentUpon>BlankPage1.xaml</DependentUpon>
     </Compile>
     <Compile Include="Command\CommandBase.cs" />
-    <Compile Include="Connection.cs" />
+    <Compile Include="Catalog.cs" />
     <Compile Include="Command\CRUDCommandBase.cs" />
     <Compile Include="Command\DeleteCommand.cs" />
     <Compile Include="DomainModel.cs" />
@@ -112,13 +112,14 @@
     </Compile>
     <Compile Include="IDomainClass.cs" />
     <Compile Include="Command\INotofiableCommand.cs" />
-    <Compile Include="Navigation\NavigateToSide1.cs" />
-    <Compile Include="Navigation\SkipToCreateTicket.cs" />
     <Compile Include="Pages\ShowTicket.xaml.cs">
       <DependentUpon>ShowTicket.xaml</DependentUpon>
     </Compile>
     <Compile Include="TicketDataViewModel.cs" />
     <Compile Include="TicketPageViewModel.cs" />
+    <Compile Include="Command\UpdateCommand.cs" />
+    <Compile Include="Command\UpdateTicketCommand.cs" />
+    <Compile Include="UpdateTicketPageViewModel.cs" />
     <Compile Include="ViewModel\Base\CreatePageViewModelBase.cs" />
     <Compile Include="ViewModel\Base\DataViewModelAppBase.cs" />
     <Compile Include="ViewModel\Base\DataViewModelBase.cs" />
@@ -133,11 +134,9 @@
     <Compile Include="Pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Navigation\BaseClassNavigate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RiascaseContext.cs" />
     <Compile Include="Ticket.cs" />
-    <Compile Include="TicketConnection.cs" />
     <Compile Include="ViewModel\Data\TicketCatalog.cs" />
   </ItemGroup>
   <ItemGroup>

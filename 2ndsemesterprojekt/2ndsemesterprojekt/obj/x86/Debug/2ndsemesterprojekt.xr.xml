@@ -88,13 +88,14 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="Margin" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="_2ndsemesterprojekt.MainPage" />
     <RootType FullName="_2ndsemesterprojekt.TicketPageViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="IsEnabled" />
       <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="SelectedItem" />
+      <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="_2ndsemesterprojekt.Pages.ShowTicket" />
   </Roots.RootTypes>

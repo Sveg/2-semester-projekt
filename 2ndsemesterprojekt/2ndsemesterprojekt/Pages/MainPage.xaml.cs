@@ -13,7 +13,6 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using _2ndsemesterprojekt.Navigation;
 using _2ndsemesterprojekt.Pages;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -25,29 +24,18 @@ namespace _2ndsemesterprojekt
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private static ICommand _navPage1;
-        public static Frame _frame;
+        
 
         public MainPage()
         {
             this.InitializeComponent();
-            Setup(appframe);
+            
         }
 
-        public static void Setup(Frame frame)
-        {
-            _frame = frame;
-            _navPage1 = new BaseClassNavigate(frame, typeof(BlankPage1));
-        }
-        public ICommand ButtonCommand
-        {
-            get { return _navPage1; }
-        }
+        
+       
 
-        public string TestProp
-        {
-            get { return "Test"; }
-        }
+        
 
         private void NewTicket_Click(object sender, RoutedEventArgs e)
         {

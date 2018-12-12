@@ -17,11 +17,13 @@ namespace _2ndsemesterprojekt.ViewModel.Base
         protected iCatalog<T> _catalog;
         protected TDataViewModel _itemBeingCreated;
         private CommandBase _createCommandObject;
+        
 
         public CreatePageViewModelBase()
         {
             _catalog = DomainModel.GetCatalog<T>();
             _createCommandObject = new CreateCommand<T, TDataViewModel>(_catalog, this);
+            
     
         }
 
