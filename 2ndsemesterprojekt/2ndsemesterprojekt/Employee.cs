@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Windows.ApplicationModel.Appointments;
 
 namespace _2ndsemesterprojekt
 {
@@ -19,6 +20,11 @@ namespace _2ndsemesterprojekt
         public int GetId()
         {
             return 0;
+        }
+
+        public IDomainClass Copy()
+        {
+            return null;
         }
 
         public void SetId(int id)

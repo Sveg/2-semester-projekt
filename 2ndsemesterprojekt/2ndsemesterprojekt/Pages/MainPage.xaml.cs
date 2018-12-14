@@ -39,10 +39,15 @@ namespace _2ndsemesterprojekt
 
         private void NewTicket_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(BlankPage1));
+            this.Frame.Navigate(typeof(CreateTicket));
         }
 
         private void FAQ_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(FAQ));
+        }
+
+        private void Admin_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(ShowTicket));
         }

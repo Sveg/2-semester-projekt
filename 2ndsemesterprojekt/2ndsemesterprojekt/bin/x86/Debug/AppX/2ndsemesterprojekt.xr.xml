@@ -11,6 +11,9 @@
     <RootPropertyPathName Name="Email" />
     <RootPropertyPathName Name="CompanyName" />
     <RootPropertyPathName Name="FullName" />
+    <RootPropertyPathName Name="UpdateTicketStatus" />
+    <RootPropertyPathName Name="DeleteCommandObj" />
+    <RootPropertyPathName Name="UpdateCommandobj" />
     <RootPropertyPathName Name="ItemCollection" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -83,7 +86,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="_2ndsemesterprojekt.BlankPage1" />
+    <RootType FullName="_2ndsemesterprojekt.Pages.CreateTicket" />
+    <RootType FullName="_2ndsemesterprojekt.Pages.FAQ" />
     <RootType FullName="_2ndsemesterprojekt.FindTicket" />
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="Margin" />

@@ -31,5 +31,15 @@ namespace _2ndsemesterprojekt.Pages
         {
            
         }
+
+        private void UpdateTicket_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }

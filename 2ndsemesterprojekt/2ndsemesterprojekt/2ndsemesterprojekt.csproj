@@ -97,16 +97,20 @@
     </Compile>
     <Compile Include="Command\CreateCommand.cs" />
     <Compile Include="Command\CreateTicketCommand.cs" />
+    <Compile Include="Command\DeleteTicketCommand.cs" />
     <Compile Include="CreateTicketPageViewModel.cs" />
-    <Compile Include="Pages\BlankPage1.xaml.cs">
-      <DependentUpon>BlankPage1.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Command\CommandBase.cs" />
     <Compile Include="Catalog.cs" />
     <Compile Include="Command\CRUDCommandBase.cs" />
     <Compile Include="Command\DeleteCommand.cs" />
     <Compile Include="DomainModel.cs" />
     <Compile Include="EmployeeDataViewModel.cs" />
+    <Compile Include="Pages\CreateTicket.xaml.cs">
+      <DependentUpon>CreateTicket.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FAQ.xaml.cs">
+      <DependentUpon>FAQ.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\FindTicket.xaml.cs">
       <DependentUpon>FindTicket.xaml</DependentUpon>
     </Compile>
@@ -115,11 +119,12 @@
     <Compile Include="Pages\ShowTicket.xaml.cs">
       <DependentUpon>ShowTicket.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\Base\PageViewModelBaseV2.cs" />
+    <Compile Include="PageViewModelState.cs" />
     <Compile Include="TicketDataViewModel.cs" />
     <Compile Include="TicketPageViewModel.cs" />
     <Compile Include="Command\UpdateCommand.cs" />
     <Compile Include="Command\UpdateTicketCommand.cs" />
-    <Compile Include="UpdateTicketPageViewModel.cs" />
     <Compile Include="ViewModel\Base\CreatePageViewModelBase.cs" />
     <Compile Include="ViewModel\Base\DataViewModelAppBase.cs" />
     <Compile Include="ViewModel\Base\DataViewModelBase.cs" />
@@ -161,7 +166,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Pages\BlankPage1.xaml">
+    <Page Include="Pages\CreateTicket.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\FAQ.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

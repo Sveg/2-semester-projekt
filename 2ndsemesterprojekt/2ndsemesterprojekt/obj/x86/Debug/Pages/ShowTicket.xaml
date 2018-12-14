@@ -17,15 +17,25 @@
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
-        <ListView x:ConnectionId='2' ItemsSource="{Binding ItemCollection}" Grid.Column="0" IsEnabled="True" IsItemClickEnabled="True"                                SelectedItem="{Binding ItemSelected, Mode=TwoWay}"/>
-        <TextBox x:ConnectionId='3' Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="infoBox" Text="{Binding ItemDetails.Message}"/>
+
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
-                <RowDefinition/>
+                <RowDefinition/> 
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
         </Grid>
+        <ListView x:ConnectionId='2' ItemsSource="{Binding ItemCollection}" Grid.Column="0" IsEnabled="True" IsItemClickEnabled="True"                                SelectedItem="{Binding ItemSelected, Mode=TwoWay}"/>
+        <TextBox x:ConnectionId='3' Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="infoBox" Text="{Binding ItemDetails.Message}" Height="176" Margin="0,0,0,0" Width="280"/>
+        <Button x:ConnectionId='4' Name="UpdateTicket" Content="Update Ticket" Command="{Binding UpdateCommandobj}"                            Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Height="68" Margin="1153,0,0,0" Width="127"/>
+        <Button x:ConnectionId='5' Name="Delete" Content="Delete" Command="{Binding DeleteCommandObj}"/>
+        <Button x:ConnectionId='6' Name="Home" Content="Home" HorizontalAlignment="Left" Height="176" Margin="513,0,0,0" VerticalAlignment="Center" Width="127"                   />
+        <ComboBox HorizontalAlignment="Right" VerticalAlignment="Top" Height="105" Width="595"  Grid.Column="1" Grid.Row="0" SelectedItem="{Binding ItemSelected.UpdateTicketStatus, Mode=TwoWay}">
+            <ComboBoxItem Content="Open"/>
+            <ComboBoxItem Content="Delayed"/>
+            <ComboBoxItem Content="Assigned"/>
+            <ComboBoxItem Content="Answered"/>
+        </ComboBox>
     </Grid>
 </Page>
 

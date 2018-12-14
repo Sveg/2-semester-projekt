@@ -33,7 +33,9 @@ namespace _2ndsemesterprojekt
             if (obj != null)
             {
                 _context.Remove(obj);
+                _context.SaveChanges();
             }
+            
         }
 
         public T Read(int id)
@@ -43,7 +45,19 @@ namespace _2ndsemesterprojekt
 
         public void Update(int id, T obj)
         {
-             
+            T oldObj = Read(id);
+            if (oldObj != null)
+            {
+                Delete(id);
+                _context.Add(obj);
+                _context.SaveChanges();
+            }
+            
+        }
+
+        public void Save()
+        {
+            _context.SaveChanges();
         }
     }
 }

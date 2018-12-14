@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.ComponentModel.Design;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace _2ndsemesterprojekt
         private TDataViewModel _itemSelected;
         private CommandBase _deleteCommandObj;
         private TDataViewModel _itemDetails;
+       
 
         protected PageViewModelBase()
         {
@@ -49,6 +51,10 @@ namespace _2ndsemesterprojekt
         public TDataViewModel ItemDetails
         {
             get { return _itemDetails; }
+        }
+
+        public void RefreshView()
+        {
         }
 
         private TDataViewModel CreateDataViewModel(T obj)

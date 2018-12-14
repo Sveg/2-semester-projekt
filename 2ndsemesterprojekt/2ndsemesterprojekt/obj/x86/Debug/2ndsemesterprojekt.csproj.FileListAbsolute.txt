@@ -1341,7 +1341,6 @@ C:\Users\lucal\OneDrive\Dokumenter\GitHub\2-semester-projekt\2ndsemesterprojekt\
 C:\Users\lucal\OneDrive\Dokumenter\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\ShowTicket.g.i.cs
 C:\Users\lucal\OneDrive\Dokumenter\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\ShowTicket.g.cs
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\App.xbf
-C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\BlankPage1.xbf
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\FindTicket.xbf
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\MainPage.xbf
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\ShowTicket.xbf
@@ -1536,11 +1535,8 @@ C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemester
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\System.Interactive.Async.dll
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\System.Memory.dll
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\2ndsemesterprojekt.csprojAssemblyReference.cache
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\App.g.i.cs
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\App.g.cs
-C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\BlankPage1.g.i.cs
-C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\BlankPage1.g.cs
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\FindTicket.g.i.cs
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\FindTicket.g.cs
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\MainPage.g.i.cs
@@ -1549,12 +1545,10 @@ C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemester
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\ShowTicket.g.cs
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\XamlTypeInfo.g.cs
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\App.xaml
-C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\BlankPage1.xaml
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\FindTicket.xaml
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\MainPage.xaml
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\ShowTicket.xaml
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\App.xbf
-C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\BlankPage1.xbf
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\FindTicket.xbf
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\MainPage.xbf
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\ShowTicket.xbf
@@ -1678,3 +1672,14 @@ C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemester
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\CreateTicket.xbf
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\FAQ.xbf
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\2ndsemesterprojekt.csprojAssemblyReference.cache
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\CreateTicket.g.i.cs
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\CreateTicket.g.cs
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\FAQ.g.i.cs
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\FAQ.g.cs
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\CreateTicket.xaml
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\FAQ.xaml
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\CreateTicket.xbf
+C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\obj\x86\Debug\Pages\FAQ.xbf

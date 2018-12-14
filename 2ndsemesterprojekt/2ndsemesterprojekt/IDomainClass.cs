@@ -4,5 +4,6 @@
     {
         int GetId();
         void SetId(int id);
+        IDomainClass Copy();
     }
 }

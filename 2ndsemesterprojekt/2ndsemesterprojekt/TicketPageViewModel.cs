@@ -2,6 +2,8 @@
 {
     public class TicketPageViewModel : PageViewModelAppBase<Ticket, TicketDataViewModel>
     {
-        
+        public TicketPageViewModel()
+        {
+        }
     }
 }

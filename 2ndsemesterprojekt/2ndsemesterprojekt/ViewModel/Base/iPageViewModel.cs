@@ -9,5 +9,6 @@ namespace _2ndsemesterprojekt
         TDataViewModel ItemSelected { get; set; }
         ICommand DeleteCommandObj { get; }
         TDataViewModel ItemDetails { get; }
+        void RefreshView();
     }
 }

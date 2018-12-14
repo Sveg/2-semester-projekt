@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="_2ndsemesterprojekt.Pages.CreateTicket"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="using:_2ndsemesterprojekt"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <local:CreateTicketPageViewModel/>
+    </Page.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock HorizontalAlignment="Left" Text="*Full Name" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Text="*Email" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="3"/>
+        <TextBlock HorizontalAlignment="Left" Text="Telephone" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="4"/>
+        <TextBlock HorizontalAlignment="Left" Text="Company Name" VerticalAlignment="Top" Height="60" Width="253" FontSize="30" Grid.Column="0" Grid.Row="2"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.FullName, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" FontSize="58" Text="Create Support Ticket" TextWrapping="Wrap" VerticalAlignment="Top" Height="125" Width="694" Grid.Column="1" Grid.Row="0"/>
+        <TextBlock HorizontalAlignment="Left" Text="*Help Topic" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="5"/>
+        <TextBlock HorizontalAlignment="Left" Text="*Subject" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="6"/>
+        <TextBlock HorizontalAlignment="Left" Text="*Message" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="7"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.CompanyName, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1"  Grid.Row="2"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.Email, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1"  Grid.Row="3"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.Telephone, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1"  Grid.Row="4"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.Subject, Mode=TwoWay}" VerticalAlignment="Top" Height="60" Width="580" Grid.Column="1" Grid.Row="6"/>
+        <TextBox HorizontalAlignment="Left" Text="{Binding ItemDetails.Message, Mode=TwoWay}" VerticalAlignment="Top" Height="135" Width="928" Grid.Column="1" Grid.Row="7"/>
+        <Button x:ConnectionId='2' Name="SubmitTicket" Content="Submit Ticket" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="187" Grid.Column="0" Grid.Row="9" Margin="0,62,0,0"                              Command="{Binding CreateTicketCommandObj}"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="580"  Grid.Column="1" Grid.Row="5" SelectedItem="{Binding ItemSelected.HelpTopic, Mode=TwoWay}">
+            <ComboBoxItem Content="Support"/>
+            <ComboBoxItem Content="Billing"/>
+            <ComboBoxItem Content="Plast"/>
+            <ComboBoxItem Content="3D Print"/>
+        </ComboBox>
+        <Button x:ConnectionId='3' Name="Reset" Content="Reset" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="1" Grid.Row="9"                    />
+        <Button x:ConnectionId='4' Name="Cancel" Content="Cancel" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="40" Width="187" Grid.Column="1" Grid.Row="9"                     />
+        <TextBlock HorizontalAlignment="Left" Text="Attachmens" VerticalAlignment="Top" Height="60" Width="215" FontSize="30" Grid.Column="0" Grid.Row="8"/>
+        <Button Content="Browse" HorizontalAlignment="Center" VerticalAlignment="Top" Height="46" Width="187" Grid.Column="1" Grid.Row="8" Margin="94,0,0,0"/>
+        <TextBox HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="320" Grid.Column="1" Grid.Row="8" HorizontalTextAlignment="Right"/>
+
+
+    </Grid>
+</Page>
+

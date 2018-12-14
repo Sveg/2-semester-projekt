@@ -43,6 +43,10 @@ namespace _2ndsemesterprojekt
             TicketId = id;
         }
 
-        
+        public IDomainClass Copy()
+        {
+            return (MemberwiseClone() as IDomainClass);
+        }
+
     }
 }

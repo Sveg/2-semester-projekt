@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-12T12:41:47.068</Modified>
+      <Modified>2018-12-14T12:31:28.462</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\2ndsemesterprojekt.exe">
       <PackagePath>entrypoint\2ndsemesterprojekt.exe</PackagePath>
-      <Modified>2018-12-12T12:41:46.312</Modified>
+      <Modified>2018-12-14T12:31:28.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sveg\.nuget\packages\microsoft.entityframeworkcore\2.2.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
@@ -811,27 +811,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\2ndsemesterprojekt.xr.xml">
       <PackagePath>2ndsemesterprojekt.xr.xml</PackagePath>
-      <Modified>2018-12-12T12:34:24.092</Modified>
+      <Modified>2018-12-14T11:59:40.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-12T12:41:46.041</Modified>
+      <Modified>2018-12-14T12:31:27.819</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\BlankPage1.xbf">
-      <PackagePath>Pages\BlankPage1.xbf</PackagePath>
-      <Modified>2018-12-12T12:41:46.042</Modified>
+    <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\CreateTicket.xbf">
+      <PackagePath>Pages\CreateTicket.xbf</PackagePath>
+      <Modified>2018-12-14T12:31:27.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\FAQ.xbf">
+      <PackagePath>Pages\FAQ.xbf</PackagePath>
+      <Modified>2018-12-14T12:31:27.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\FindTicket.xbf">
       <PackagePath>Pages\FindTicket.xbf</PackagePath>
-      <Modified>2018-12-12T12:41:46.042</Modified>
+      <Modified>2018-12-14T12:31:27.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
-      <Modified>2018-12-12T12:41:46.042</Modified>
+      <Modified>2018-12-14T12:31:27.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\ShowTicket.xbf">
       <PackagePath>Pages\ShowTicket.xbf</PackagePath>
-      <Modified>2018-12-12T12:41:46.042</Modified>
+      <Modified>2018-12-14T12:31:27.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -840,11 +844,11 @@
     <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-12T12:34:25.443</Modified>
+      <Modified>2018-12-14T12:28:39.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Core\2ndsemesterprojekt.exe">
       <PackagePath>2ndsemesterprojekt.exe</PackagePath>
-      <Modified>2018-12-12T12:41:47.055</Modified>
+      <Modified>2018-12-14T12:31:28.456</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

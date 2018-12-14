@@ -613,8 +613,11 @@
     <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\BlankPage1.xbf">
-      <PackagePath>Pages\BlankPage1.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\CreateTicket.xbf">
+      <PackagePath>Pages\CreateTicket.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\FAQ.xbf">
+      <PackagePath>Pages\FAQ.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sveg\Documents\GitHub\2-semester-projekt\2ndsemesterprojekt\2ndsemesterprojekt\bin\x86\Debug\Pages\FindTicket.xbf">
       <PackagePath>Pages\FindTicket.xbf</PackagePath>

@@ -3,11 +3,13 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using Windows.ApplicationModel.Appointments;
+using Windows.UI.Xaml.Controls;
 
 namespace _2ndsemesterprojekt
 {
     public class TicketDataViewModel : DataViewModelAppBase<Ticket>, INotifyPropertyChanged
     {
+        
         public string Status
         {
             get { return DataObject().Status; }
@@ -24,6 +26,17 @@ namespace _2ndsemesterprojekt
             set
             {
                 DataObject().FullName = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public object UpdateTicketStatus
+        {
+            get { return DataObject().Status; }
+            set
+            {
+                string newStatus = ((ComboBoxItem)value).Content.ToString();
+                DataObject().Status = newStatus;
                 OnPropertyChanged();
             }
         }

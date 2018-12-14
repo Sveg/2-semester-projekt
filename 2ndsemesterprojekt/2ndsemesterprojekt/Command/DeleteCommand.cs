@@ -16,7 +16,10 @@
 
         protected override void Execute()
         {
+            // T obj = _pageViewModel.ItemDetails.DataObject();
             _catalog.Delete(_pageViewModel.ItemSelected.DataObject().GetId());
+            _pageViewModel.RefreshView();
+
         }
     }
 }

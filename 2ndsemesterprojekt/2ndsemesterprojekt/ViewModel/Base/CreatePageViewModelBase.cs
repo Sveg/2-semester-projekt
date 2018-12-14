@@ -48,6 +48,10 @@ namespace _2ndsemesterprojekt.ViewModel.Base
             get { return ItemSelected; }
         }
 
+        public void RefreshView()
+        {
+        }
+
         public ICommand DeleteCommandObj
         {
             get { throw new NotImplementedException();}
