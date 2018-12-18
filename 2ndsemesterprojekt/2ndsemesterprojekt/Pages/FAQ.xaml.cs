@@ -26,5 +26,10 @@ namespace _2ndsemesterprojekt.Pages
         {
             this.InitializeComponent();
         }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }

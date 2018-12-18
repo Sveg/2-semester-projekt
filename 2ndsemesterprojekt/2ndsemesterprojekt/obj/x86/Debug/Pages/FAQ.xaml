@@ -9,7 +9,27 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
 
+        <TextBlock x:ConnectionId='2' Name="Title" Text="FAQ" FontSize="56" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0"/>
+        <TextBlock x:ConnectionId='3' Name="FAQ1" Text="Udvider plast sig i vand (vandabsorption)?" FontSize="42" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBlock x:ConnectionId='4' Name="Svar1" Text="Ja, når plasten absorberer vand udvider materialet sig - nogle materialer mere end andre." FontSize="36" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:ConnectionId='5' Name="FAQ2" Text="Hvordan limer jeg plast?" FontSize="42" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2"/>
+        <TextBlock x:ConnectionId='6' Name="Svar2" Text="Ikke alle plasttyper kan limes. Til de enkelte plasttyper kan det være forskellige limtyper, der skal anvendes fx polymeringsbaserede lim, opløsningsmiddelbaseret eller UV hærdende lim." FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" TextWrapping="Wrap" Margin="0,61,0,0"/>
+        <TextBlock x:ConnectionId='7' Name="FAQ3" Text="Hvordan fræser jeg i plast?" FontSize="42" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="3"/>
+        <TextBlock x:ConnectionId='8' Name="Svar3" Text="De fleste typer plast kan fræses med almindelige fræsere til stål. Det anbefales at anvende specielle fræsere med hårdmetals platter ved større produktioner. Fræserne kan have specielle frigangs-, spånvinkler samt køre med specielle tilspændingshastigheder." FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="3" TextWrapping="Wrap" Margin="0,61,0,0"/>
+        <TextBlock x:ConnectionId='9' Name="FAQ4" Text="Hvordan borer jeg i plast?" FontSize="42" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="4"/>
+        <TextBlock x:ConnectionId='10' Name="Svar4" Text="De fleste plasttyper kan bores med et almindeligt HSS bor til stål. Det må dog anbefales at anvende specielle kunststof bor ved større produktioner. Borene har specielle frigangs-, spån- og spidsvinkler." FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="4" TextWrapping="Wrap" Margin="0,61,0,0"/>
+        <TextBlock x:ConnectionId='11' Name="FAQ5" Text="Hvad er leveringstiden?" FontSize="42" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="5"/>
+        <TextBlock x:ConnectionId='12' Name="Svar5" Text="Vi har dag til dag levering på standardprodukter. For skaffevarer bedes I kontakte RIAS' interne salgsafdeling." FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="5" TextWrapping="Wrap"/>
+        <Button x:ConnectionId='13' Name="Home" Content="Home" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="55" Width="100"                    />
     </Grid>
 </Page>
 
