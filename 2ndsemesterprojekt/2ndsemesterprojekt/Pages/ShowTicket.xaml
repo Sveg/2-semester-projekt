@@ -20,21 +20,22 @@
 
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
-                <RowDefinition/> 
+                <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
         </Grid>
         <ListView ItemsSource="{Binding ItemCollection}" Grid.Column="0" IsEnabled="True" IsItemClickEnabled="True" ItemClick="ListView_ItemClick" SelectedItem="{Binding ItemSelected, Mode=TwoWay}"/>
-        <TextBox Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="infoBox" Text="{Binding ItemDetails.Message}" Height="176" Margin="0,0,0,0" Width="280"/>
-        <Button Name="UpdateTicket" Content="Update Ticket" Command="{Binding UpdateCommandobj}" Click="UpdateTicket_Click" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Height="68" Margin="1153,0,0,0" Width="127"/>
-        <Button Name="Delete" Content="Delete" Command="{Binding DeleteCommandObj}"/>
-        <Button Name="Home" Content="Home" HorizontalAlignment="Left" Height="176" Margin="513,0,0,0" VerticalAlignment="Center" Width="127" Click="Home_Click"/>
-        <ComboBox HorizontalAlignment="Right" VerticalAlignment="Top" Height="105" Width="595"  Grid.Column="1" Grid.Row="0" SelectedItem="{Binding ItemSelected.UpdateTicketStatus, Mode=TwoWay}">
+        <TextBox Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="infoBox" Text="{Binding ItemDetails.Message}" Height="388" Margin="40,152,0,0" Width="280"/>
+        <Button Name="UpdateTicket" Content="Update Ticket" Command="{Binding UpdateCommandobj}" Click="UpdateTicket_Click" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="58" Margin="640,288,0,0" Width="164"/>
+        <Button Name="Delete" Content="Delete" Command="{Binding DeleteCommandObj}" Grid.Column="1" HorizontalAlignment="Left" Margin="1071,288,0,0" VerticalAlignment="Top" Height="58" Width="164" RenderTransformOrigin="2.325,1.935"/>
+        <Button Name="Home" Content="Home" HorizontalAlignment="Left" Height="176" Margin="1108,894,0,0" VerticalAlignment="Top" Width="127" Click="Home_Click" Grid.Column="1"/>
+        <ComboBox HorizontalAlignment="Right" VerticalAlignment="Top" Height="105" Width="595"  Grid.Column="1" Grid.Row="0" SelectedItem="{Binding ItemSelected.UpdateTicketStatus, Mode=TwoWay}" Margin="0,152,45,0">
             <ComboBoxItem Content="Open"/>
             <ComboBoxItem Content="Delayed"/>
             <ComboBoxItem Content="Assigned"/>
             <ComboBoxItem Content="Answered"/>
+            <ComboBoxItem Content="Closed"/>
         </ComboBox>
     </Grid>
 </Page>

@@ -98,13 +98,13 @@
     <Compile Include="Command\CreateCommand.cs" />
     <Compile Include="Command\CreateTicketCommand.cs" />
     <Compile Include="Command\DeleteTicketCommand.cs" />
-    <Compile Include="CreateTicketPageViewModel.cs" />
+    <Compile Include="ViewModel\Data\CreateTicketPageViewModel.cs" />
     <Compile Include="Command\CommandBase.cs" />
-    <Compile Include="Catalog.cs" />
+    <Compile Include="DomainCalss\Catalog.cs" />
     <Compile Include="Command\CRUDCommandBase.cs" />
     <Compile Include="Command\DeleteCommand.cs" />
-    <Compile Include="DomainModel.cs" />
-    <Compile Include="EmployeeDataViewModel.cs" />
+    <Compile Include="DomainCalss\DomainModel.cs" />
+    <Compile Include="ViewModel\Data\EmployeeDataViewModel.cs" />
     <Compile Include="Pages\CreateTicket.xaml.cs">
       <DependentUpon>CreateTicket.xaml</DependentUpon>
     </Compile>
@@ -114,34 +114,34 @@
     <Compile Include="Pages\FindTicket.xaml.cs">
       <DependentUpon>FindTicket.xaml</DependentUpon>
     </Compile>
-    <Compile Include="IDomainClass.cs" />
+    <Compile Include="Interface\IDomainClass.cs" />
     <Compile Include="Command\INotofiableCommand.cs" />
     <Compile Include="Pages\ShowTicket.xaml.cs">
       <DependentUpon>ShowTicket.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\Base\PageViewModelBaseV2.cs" />
-    <Compile Include="PageViewModelState.cs" />
-    <Compile Include="TicketDataViewModel.cs" />
-    <Compile Include="TicketPageViewModel.cs" />
+    <Compile Include="ViewModel\Base\PageViewModelState.cs" />
+    <Compile Include="ViewModel\Data\TicketDataViewModel.cs" />
+    <Compile Include="ViewModel\Data\TicketPageViewModel.cs" />
     <Compile Include="Command\UpdateCommand.cs" />
     <Compile Include="Command\UpdateTicketCommand.cs" />
     <Compile Include="ViewModel\Base\CreatePageViewModelBase.cs" />
     <Compile Include="ViewModel\Base\DataViewModelAppBase.cs" />
     <Compile Include="ViewModel\Base\DataViewModelBase.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="ViewModel\Base\iPageViewModel.cs" />
+    <Compile Include="DomainCalss\Employee.cs" />
+    <Compile Include="Interface\iPageViewModel.cs" />
     <Compile Include="ViewModel\Base\PageViewModelAppBase.cs" />
     <Compile Include="ViewModel\Base\PageViewModelBase.cs" />
     <Compile Include="ViewModel\Data\EmployeeCatalog.cs" />
-    <Compile Include="EmployeePageViewModel.cs" />
-    <Compile Include="ViewModel\Base\IDataViewModel.cs" />
-    <Compile Include="iCatalog.cs" />
+    <Compile Include="ViewModel\Data\EmployeePageViewModel.cs" />
+    <Compile Include="Interface\IDataViewModel.cs" />
+    <Compile Include="Interface\iCatalog.cs" />
     <Compile Include="Pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RiascaseContext.cs" />
-    <Compile Include="Ticket.cs" />
+    <Compile Include="DomainCalss\RiascaseContext.cs" />
+    <Compile Include="DomainCalss\Ticket.cs" />
     <Compile Include="ViewModel\Data\TicketCatalog.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -195,6 +195,7 @@
       <Version>6.1.9</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
